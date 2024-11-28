@@ -21,6 +21,28 @@
         }
     });
 
+    //Initialize Owl Carousel
+    $(".packages-carousel").owlCarousel();
+    $(document).ready(function () {
+        $(".packages-carousel").owlCarousel({
+            autoplay: true,           // Enables automatic scrolling
+            autoplayTimeout: 3000,    // Time between scrolls (in ms)
+            autoplayHoverPause: true, // Pause autoplay when hovered
+            smartSpeed: 1000,         // Transition speed (in ms)
+            loop: true,               // Enables infinite looping
+            margin: 25,               // Space between items
+            nav: true,                // Shows navigation arrows
+            navText: [
+                '<i class="bi bi-arrow-left"></i>',
+                '<i class="bi bi-arrow-right"></i>'
+            ],
+            responsive: {
+                0: { items: 1 },      // 1 item on small screens
+                768: { items: 2 },    // 2 items on medium screens
+                1200: { items: 3 }    // 3 items on large screens
+            }
+        });
+    });
 
     // International Tour carousel
     $(".InternationalTour-carousel").owlCarousel({
