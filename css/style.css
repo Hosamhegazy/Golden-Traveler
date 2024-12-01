@@ -17,8 +17,8 @@
 
 .back-to-top {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    left: 50%;
+    bottom: 60px;
     display: flex;
     width: 45px;
     height: 45px;
@@ -713,3 +713,10 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+/* RTL */
+.rtol{
+    direction:rtl;
+}
+.ltor{
+    direction:ltr;
+}
