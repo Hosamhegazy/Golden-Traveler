@@ -25,9 +25,9 @@
     // International Tour carousel
     $(".InternationalTour-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 500,
         center: false,
-        dots: true,
+        dots: false,
         loop: true,
         margin: 25,
         nav : false,
@@ -57,7 +57,7 @@
     $(".packages-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        center: false,
+        center: true,
         dots: false,
         loop: true,
         margin: 25,
