@@ -146,7 +146,7 @@
 
 @media (max-width: 768px) {
     .topbar {
-        display: none;    
+        display: none;
     }
 }
 /*** Topbar End ***/
@@ -156,10 +156,10 @@
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    padding: 35px 15px;
+    padding: 63px 15px;
     color: var(--bs-white) !important;
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 800;
     outline: none;
     transition: .5s;
 }
@@ -260,7 +260,9 @@
     .navbar-light .navbar-nav .nav-link.active  {
         color: var(--bs-primary) !important;
     }
-
+    .navbar-light .navbar-nav .nav-link{
+        font-size:17px;
+    }
     .navbar-light .navbar-brand img {
         max-height: 90px;
     }
