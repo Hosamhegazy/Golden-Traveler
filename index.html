@@ -88,28 +88,28 @@
                         <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item">
+                            <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 1px;">ابدأ رحلتك</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">رحلاتك تبدأ هنا.. اختر وجهتك واحنا بنهتم بالباقي</h1>
+                                    <p class="mb-5 fs-5"></p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">إحجز الآن</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="carousel-item active">
                             <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                     <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 1px;">أكتشف العالم</h4>
-                                    <h1 class="display-2 text-capitalize text-white mb-4">معاً نكتشف جمال العالم</h1>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">عيش مغامرة جديدة، واكتشف العالم معانا!</h1>
                                     <p class="mb-5 fs-5"></p>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
-                            <div class="carousel-caption">
-                                <div class="p-3" style="max-width: 900px;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 1px;">يوميات بطيخات</h4>
-                                    <h1 class="display-2 text-capitalize text-white mb-4">حمار و حلاوة يا بطيخ</h1>
-                                    <p class="mb-5 fs-5"></p>
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#Pop-Dest">شاهد الآن</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,11 +118,11 @@
                             <img src="img/carousel-3.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 1px;">أوكازيون الصيف</h4>
-                                    <h1 class="display-2 text-capitalize text-white mb-4">أكتشف معنا أحدث العروض من أوكازيون البطيخ</h1>
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 1px;">عروضنا</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">سافر بخطوات سهلة وأسعار تنافسية</h1>
                                     <p class="mb-5 fs-5"></p>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#packages-section">أكتشف العروض</a>
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +262,7 @@
         <!-- Services End -->
 
         <!-- Destination Start -->
-        <div class="container-fluid destination py-5">
+        <div class="container-fluid destination py-5" id="Pop-Dest">
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5" style="max-width: 900px;">
                     <h5 class="section-title px-3">Destination</h5>
@@ -571,11 +571,11 @@
         <!-- Destination End -->
 
         <!-- Packages Start -->
-        <div class="container-fluid packages py-5">
+        <div class="container-fluid packages py-5" id="packages-section">
             <div class="container py-5">
                 <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                    <h5 class="section-title px-3">Packages</h5>
-                    <h1 class="mb-0">Awesome Packages</h1>
+                    <h5 class="section-title px-3">العروض</h5>
+                    <h1 class="mb-0">أكتشف عروضنا المميزه</h1>
                 </div>
                 <div class="packages-carousel owl-carousel">
                     <div class="packages-item">
@@ -770,7 +770,8 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
-
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
